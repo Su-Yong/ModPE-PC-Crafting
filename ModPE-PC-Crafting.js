@@ -343,6 +343,15 @@ function getBlockItem(itemId)
  if(i==46) { left = ["tnt",0]; right = left; top = ["tnt",1]; }
  if(i==47) { left = ["bookshelf",0]; right = left; top = ["bookshelf",1]; }
  if(i==61) { left = ["furnace",0]; right = ["furnace",2]; top = ["furnace",3]; }
+ if(i==62) { left = ["furnace",1]; right = ["furnace",2]; top = ["furnace",3]; }
+ if(i==65) { left = ["ladder",0]; type = "item" }
+ if(i==66) { left = ["rail_normal",0]; type = "item" }
+ if(i==67) { left = ["cobblestone",0]; right = ["cobblestone",0]; top = ["cobblestone",0]; type = 1; }
+ if(i==73) { left = ["redstone_ore",0]; right = left; top = left; }
+ if(i==78) { left = ["snow",0]; right = left; top = left; type = 3; }
+ if(i==79) { left = ["ice",0]; right = left; top = left; }
+ if(i==80) { left = ["snow",0]; right = left; top = left; }
+ if(i==81) { left = ["cactus",1]; right = ["cactus",1]; top = ["cactus",0]; }
  
  if(i==280) left = ["stick",0];
 
